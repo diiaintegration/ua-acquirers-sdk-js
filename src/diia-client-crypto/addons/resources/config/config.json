@@ -1,0 +1,23 @@
+{
+    "CAs": "settings/CAs.Test.json",
+    "CACertificates": [
+      "certificates/CACertificates.Test.p7b"
+    ],
+    "defaultCASettings": {
+    "address": "ca.iit.com.ua",
+    "ocspAccessPointAddress": "ca.iit.com.ua/services/ocsp/",
+    "ocspAccessPointPort": "80",
+    "cmpAddress": "ca.iit.com.ua",
+    "tspAddress": "ca.iit.com.ua",
+    "tspAddressPort": "80"
+    },
+    "PrivateKey": {
+      "filePath": "pkey/Key-6.dat",
+      "password": "12345677",
+      "certificates": [
+        "certificates/EU-5B63D88375D9201804000000E0BA0500B4810D00.cer",
+        "certificates/EU-KEP-5B63D88375D9201804000000E0BA0500B5810D00.cer"
+      ],
+      "CACommonName": "Тестовий ЦСК АТ \"ІІТ\""
+    }
+  }
